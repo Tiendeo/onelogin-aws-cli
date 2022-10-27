@@ -89,7 +89,6 @@ class UserCredentials(object):
 
         # This is `None`, as the password should be be emitted from this class
         # and should never be loaded from any other source outside this class
-        self.password = None
 
     @property
     def has_password(self) -> bool:

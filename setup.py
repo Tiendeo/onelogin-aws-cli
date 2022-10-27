@@ -1,7 +1,7 @@
 import setuptools
 
 PACKAGE_NAME = 'onelogin_aws_cli'
-VERSION = '0.1.17-1'
+VERSION = '0.1.17-2'
 
 setuptools.setup(
     name=PACKAGE_NAME,
