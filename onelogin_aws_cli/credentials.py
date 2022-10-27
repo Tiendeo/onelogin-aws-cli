@@ -84,6 +84,7 @@ class UserCredentials(object):
 
     def __init__(self, config: Section):
         self.username = config.get('username')
+        self.password = config.get('password')
         self.configuration = config
 
         # This is `None`, as the password should be be emitted from this class
